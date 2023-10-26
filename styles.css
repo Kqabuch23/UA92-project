@@ -1,0 +1,45 @@
+/* This is my own code */
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    color: #ffffff;
+    padding: 0;
+    background-color:#4b4b4b;
+    font
+}   
+
+header {
+    background-color: #da9f68;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+div.c {
+    text-align: right;
+  } 
+   .logo {
+    max-width: 100px;
+    float: left;
+  }
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #da9f68;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* This is my own code */

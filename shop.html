@@ -1,0 +1,126 @@
+<!-- Code from https://www.tutorjoes.in/JS_tutorial/food_shopping_cart_in_js -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- Determines the coding language of the file -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="shop.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <!-- The head which has the connection to the external css -->
+</head>
+<body>
+  <header>
+    <a href="D:\UA92\Project\Main.html"><img src="Images/logo.jpg" alt="Logo" class="logo"></a>
+        <div class="nav">
+      <h1>Purchase our cookbooks</h1>
+       <!-- The header and title which has a clickable logo to connect to the home page of the website -->
+      <nav>
+          <ul>
+              <li><a href="D:\UA92\Project\Main.html">Home</a></li>
+              <li><a href="D:\UA92\Project\recipes.html">Recipes</a></li>
+              <li><a href="D:\UA92\Project\form.html">Submit Your Recipe</a></li>
+              <li><a href="D:\UA92\Project\shop.html">Shop</a></li>
+          </ul>
+      </nav>
+ <!-- A list to display links to all the pages of the website -->
+      <div class="box">
+        <div class="cart-count">0</div>
+        <ion-icon name="cart"  id="cart-icon" ></ion-icon>
+      </div>
+
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+           <!-- a div tag to section off the cart element -->
+<!--
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                 <div class="cart-amt">Rs.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                 <div class="cart-amt">Rs.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+        -->
+        </div>
+        
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">£.0</div>
+      </div>
+
+      <button class="btn-buy">Place Order</button>
+
+      <ion-icon name="close" id="cart-close"></ion-icon>
+
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <h2 class="title">Discover the Best Food</h2>
+    <div class="shop-content">
+
+ <!-- a div tag to section off the container -->
+      <div class="food-box">
+        <div class="pic">
+          <img src="Images/cookbook1.jpg" class="food-img">
+        </div>
+        <h2 class="food-title">Starter Cookbook</h2>
+        <span class="food-price">£12.99</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+ <!-- the first cookbook goes here -->
+      <div class="food-box">
+        <div class="pic"><img src="Images/cookbook2.jpg" class="food-img"></div>
+        <h2 class="food-title">Cookbook</h2>
+        <span class="food-price">£16.99</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  <!-- second cookbook --> 
+      <div class="food-box">
+        <div class="pic"><img src="Images/cookbook3.jpg" class="food-img"></div>
+        <h2 class="food-title">Advanced Cookbook</h2>
+        <span class="food-price">£21.99</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  <!-- Third cookbook --> 
+      <div class="food-box">
+        <div class="pic"><img src="Images/cookbook4.jpg" class="food-img"></div>
+        <h2 class="food-title">Expert Cookbook</h2>
+        <span class="food-price">£29.99</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+ <!-- Fourth cookbook -->
+
+
+
+    </div>
+  </div>
+  <script src="shop.js"></script>
+  <footer>
+    <p>&copy; 2023 The Cooking Castle. All rights reserved.</p>
+ <!-- The footer which contains the copyright information -->
+</footer>
+</body>
+</html>
